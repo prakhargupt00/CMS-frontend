@@ -1,0 +1,31 @@
+.logout {
+  background: url("https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login-hover.png")
+    no-repeat 2px 2px #13f1dea9;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 40px;
+  padding: 5px 20px 10px 0;
+  color: #6112f5;
+  font-size: 16px;
+  font-style: bold;
+  text-align: left;
+  text-indent: 40px;
+  display: block;
+  margin: 0 auto;
+
+  /* Animations: */
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-property: all;
+
+  -moz-transition-timing-function: ease-in-out;
+  -moz-transition-duration: 0.4s;
+  -moz-transition-property: all;
+}
+
+.logout:hover {
+  background-image: url("https://dh3vbjnk0bnfa.cloudfront.net/static/centralauth/images/btn-login.png");
+  background-position: 65px 5px;
+  text-indent: 15px;
+}

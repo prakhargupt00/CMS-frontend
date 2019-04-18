@@ -1,0 +1,50 @@
+.Table {
+  font-weight: bold;
+  border-radius: 25px;
+  display: table;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Title {
+  display: table-caption;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+.Heading {
+  display: table-row;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  border: solid;
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family:georgia,garamond,serif; */
+  font-family: Verdana, Geneva, sans-serif;
+}
+.Row {
+  display: table-row;
+  border: solid;
+  font-size: 20px;
+}
+.Cell {
+  display: table-cell;
+  /* border: solid; */
+  /* padding: 5px;  */
+  border-radius: 10px;
+  border: #73ad21;
+  /* background: url(paper.gif); */
+  border-width: thin;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.sticky {
+  /* background-color : "#FCF5D8"; */
+  /* background-color : "blue"; */
+  background-color: "yellow";
+  border-radius: "5px";
+}

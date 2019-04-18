@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+.back{
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/1200px-BITS_Pilani-Logo.svg.png"); 
+   background-size: 20% ;
+  background-repeat: no-repeat;
+  height: 100%;  */
+  background-image: url("https://www.bits-pilani.ac.in/Uploads/Hyderabad/adminforhyderabad/sections/2015-6-25--12-26-25-520_Admin_Block.jpg");
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  height: 100%;
+  
+}
+
+.hell {
+  /* background-color: #3cbc8d; */
+  
+  font-family: "Numans", sans-serif;
+}
+
+.container {
+  /* background-image: url("https://www.bits-pilani.ac.in/Uploads/Hyderabad/adminforhyderabad/sections/2015-6-25--12-26-25-520_Admin_Block.jpg");
+  background-size: 100% ;
+  background-repeat: no-repeat; */
+  height: 100%;
+  align-content: center;
+  background-position: 0rem ;
+}
+
+.card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+  font-size: 60px;
+  margin-left: 10px;
+  color: #ffc312;
+}
+
+.social_icon span:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card-header h3 {
+  color: white;
+}
+
+.social_icon {
+  position: absolute;
+  right: 20px;
+  top: -45px;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #ffc312;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #ffc312;
+  width: 100px;
+  text-align: center;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+
+.hov {
+  background-color: #f4a460;
+}
+
+.links a {
+  margin-left: 4px;
+}
